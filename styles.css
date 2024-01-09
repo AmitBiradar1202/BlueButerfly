@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+.navigation{
+background-color: rgb(255, 255, 255);
+width: 4rem;
+
+}
+
+.logo{
+    height:2rem;
+    width: 2rem;
+    margin: 15px;
+}
+
+.profile{
+background-color: rgba(239, 235, 235, 0.315);
+width: 25rem;
+
+
+
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin: 20px;
+    gap:10px;
+}
+.greet{
+    margin: 10px;
+}
+.greet h2{
+    font-weight: 500;
+}
+.greet p{
+    font-weight: 200;
+    font-size: smaller;
+}
+
+.profile-photo{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+}
+.today{
+    display: flex;
+flex-direction: column;
+align-items:flex-start;
+margin-left: 25px;
+}
+.today p{
+    color: grey;
+    font-size: smaller;
+}
+.btn{
+    padding: 10px 30px ;
+    background-color: rgb(71, 71, 237);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.today hr{
+    margin-top: 10px;
+    width: 220px;
+    background-color: rgba(128, 128, 128, 0.404);
+    height: 1px;
+}
+
+
+
+
+.data{
+background-color: rgb(255, 255, 255);
+width:40rem;
+margin: 20px;
+}
+.data p{
+    color:  rgb(71, 71, 237);
+    font-size: small;
+    font-weight: 700;
+   }
+.data h3{
+    font-weight: 500;
+}
+.data-info{
+    display:flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin: 20px 0;
+}
+.data-info  p{
+    color: grey;
+    font-size: xx-small;
+    font-weight: 300;
+}
+.dt{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.dt hr{
+    margin-top: 10px;
+    width: 120px;
+    background-color: rgb(0, 0, 233);
+    height: 3px;
+}
+
+.chart{
+    margin-top:4rem;
+    margin-right:3rem;
+}
+.chart p{
+    color: black;
+    font-size: medium;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+.box p{
+    color:grey;
+    font-size:x-small;
+    font-weight: 600;
+}
+.col{
+    width:15px;
+    height:10px ;
+    
+}
+.col1{
+    background-color: rgb(0, 0, 185);
+}
+.col2{
+    background-color: rgb(86, 86, 206);
+}
+.col3{
+    background-color: rgb(87, 185, 255);
+}
+
+.box span{
+    color: black;
+    font-weight: 700;
+}
+.chart-data{
+    display: flex;
+    gap:30px;
+}
+.last-box{
+    margin-top: 25px;
+}
+.last-box p{
+    color: black;
+    font-size: medium;
+}
+.last-box h5{
+    color: grey;
+    font-size: x-small;
+    font-weight: 300;
+    margin-top:8px;
+    
+}
+.chart-circle{
+    margin-top: 20px;
+    display: flex;
+    gap:10px
+}
+.chart-circle-info p{
+    
+    font-size: smaller;
+
+}
+.chart-circle-info span{
+    font-size: small;
+    font-weight: 500;
+}
+.chart-circle-info hr{
+    width: 150px;
+}
+
+.doughnut{
+    display: flex;
+    width: 130px;
+    gap:20px
+    
+}
+.pie{
+    margin-left: 0;
+}
+.startegy{
+background-color: rgb(255, 255, 255);
+width: 25rem;
+margin-top:3rem;
+display: flex;
+flex-direction: column;
+align-items:flex-start;
+gap:20px;
+
+}
+.startegy hr{
+    width: 150px;
+ margin-top: 10px;
+}
+
+.startegy .btn{
+    width: 150px;
+}
+
+
+i{
+    font-size:55px;
+    color:grey;
+    padding: 15px 17px;
+}
+i:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(71, 71, 237);
+
+}
+    

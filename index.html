@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueButterfly</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet"
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+</head>
+<body>
+    <div class="main">
+        <div class="navigation">
+                <img src="./Assets/bluebutterfly-logo.png" alt="" class="logo">
+                <div class="icons" style="display: flex;flex-direction: column; gap:20px;align-items: center;margin-left: 15px;margin-top: 10px;">
+                    <i class="fa fa-search" class="ic"></i>
+                    <div class="alone-icons ic" style="margin-top: 50px; display:flex;flex-direction: column;gap: 20px;align-items: center;">
+                        <i class="fa fa-home"></i>
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-user"></i>
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <div class="alone-icons2 ic" style="margin-top: 120px; display:flex;flex-direction: column;gap: 20px;align-items: center;">
+                        <i class="fa fa-bell"></i>
+                       
+                        <i class="fa fa-trash"></i>
+                       
+                    </div>
+                </div>
+        </div>
+        <div class="profile">
+            <div class="me">
+                <div class="photo">
+                    <img class="profile-photo" src="./Assets/Screenshot (15).png" alt="">
+                </div>
+            
+             <div class="greet">
+                <h2>Hi Amit,</h1>
+                <p>Welcome back</p>
+            </div>
+
+            </div>
+            <div class="today">
+                <h4>Today</h4>
+                <h2>$91,000</h2>
+                <p>Account Balance</p>
+                <br>
+                <h4 >$4,000</h4>
+                <p >Year-to-Date Contributions</p>
+                <br>
+                <h4>$1,000</h4>
+                <p>Total Interest</p>
+                <br>
+                <button class="btn">
+                        I want to
+                </button>
+                <br><br>
+                <h4>Recent Transactions</h4>
+                <br>
+                <p>2020-08-07</p>
+                <h5>Withdraw Transfer to Bank-XXX11</h5>
+                <hr><br>
+                <p>2020-07-21</p>
+                <h5>Withdraw Transfer to Bank-XXX11</h5>
+                <hr><br>
+                <p>2020-07-16</p>
+                <h5>Withdraw Transfer to Bank-XXX11</h5>
+                <hr><br>
+                
+                
+            </div>
+
+        </div>
+        <div class="data">
+            <p>Retirement Income</p>
+            <h3>Starting Year 2026</h3>
+            <div class="data-info">
+                <div class="dt">
+                    <h4>$3,00,000</h4>
+                     <p>My Goal</p>
+                     <hr>
+                </div>
+                <div class="dt">
+                    <h4>59%</h4>
+                     <p> Goal Achieved</p>
+                     <hr>
+                </div>
+                <div class="dt">
+                    <h4>$300</h4>
+                     <p>Est. Money Income</p>
+                     <hr>
+                </div>
+                
+
+            </div>
+            <div class="chart">
+                <p>Contributions Over Time</p><br>
+                <div class="chart-data">
+                    <div class="box">  
+                        <div class="col col1"></div>
+                        <p>Employer: <span>K 73,500</span></p>
+                    </div>
+                    <div class="box">  
+                        <div class="col col2"></div>
+                        <p>Employer: <span>K 52,500</span></p>
+                    </div>
+                    <div class="box">  
+                        <div class="col col3"></div>
+                        <p>Total Internet: <span>K 244.313</span></p>
+                    </div>
+                        
+                </div>
+<canvas id="myChart" style="width:80%;max-width:400px"></canvas>
+            </div>
+            <div class="last-box">
+                <p>How do I compare to my peers?</p>
+                <h5>These numbers represent current goal achivement</h5>
+                <div class="chart-circle">
+                    <div class="chart-circle-info">
+                        <p>Age: <span>Under 30</span></p>
+                       <br> <hr><br>
+                        <p>Salary: <span>K 20 - K 30</span></p>
+                        <br><hr><br>
+                        <p>Gender: <span>Male</span></p>
+                        <br><hr>
+                    </div>
+                    <div class="doughnut">
+                        <canvas id="0" class="pie" width="40" height="40">Average</canvas>
+                        <canvas id="1" class="pie" width="40" height="40">Top</canvas>
+                        <canvas id="2" class="pie" width="40" height="40">Me</canvas>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="startegy">
+            <p>Retirement Strategy</p>
+            <h5>Employee Contribution</h5>
+            <input style="accent-color: rgb(87, 185, 255);height: 3px" type="range" name="" id="" value="88">
+            <h5>Retirement Age</h5>
+            <input style="accent-color: rgb(87, 185, 255);height: 3px" type="range" name="" id="" value="65">
+            <hr>
+            <button class="btn" style="width: 150px;">Update</button>
+            <p style="margin-left: 35px;color: blue;font-size: x-small;font-weight: 700;">View Help Docs ></p>
+            <div class="end-box" style="height:150px; width: 50px;border-left: 1px solid blue;border-radius: 0;padding-left: 20px;">
+                    <h5 style="font-weight:400;">Are you considering a <span style="font-weight: 700;">Housing Advance?</span></h5>
+                    <h6 style="font-weight: 200;">Limited time reduced interest</h6>
+                    <p style="color: blue;font-size: x-small;font-weight: 600;margin-top:5px">Learn More ></p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
